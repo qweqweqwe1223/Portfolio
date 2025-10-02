@@ -592,3 +592,16 @@ section.contact .text p {
   font-size: 14px;
   font-weight: 400;
 }
+
+
+/* 반응형 */
+
+@media screen and (max-width: 1500px) {
+  .inner {
+    max-width: 1200px;
+  }
+
+  .section.web_design .inner {
+     max-width: 1200px;
+  }
+}
