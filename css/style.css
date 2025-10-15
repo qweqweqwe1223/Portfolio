@@ -635,7 +635,25 @@ section.contact .text p {
   font-size: 16px;
   font-weight: 200;
 }
+section.contact .text span {
+  display: block;
+}
 
+section.contact .text p {
+  position: relative;
+  display: inline-block;
+}
+
+section.contact .text p::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background: #000;
+  z-index: 100;
+}
 
 .footer {
   position: absolute;
